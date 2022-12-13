@@ -1,0 +1,67 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: Outfit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+#efeito:hover {
+  color: rgb(46, 23, 128, 0.6);
+}
+
+.introducao-bg {
+  display: flex;
+  justify-content: center;
+}
+
+.introducao {
+  background-color: hsl(0, 0%, 100%);
+  margin: 10% auto;
+  padding: 20px 20px;
+  border-radius: 20px;
+  max-width: 375px;
+  box-shadow: #add8e6 10px 15px 30px;
+}
+
+.descricao {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.descricao p {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.descricao p + p {
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: hsl(220, 15%, 55%);
+}
